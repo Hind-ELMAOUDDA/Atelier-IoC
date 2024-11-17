@@ -4,6 +4,7 @@ import ma.xproce.ioc.dao.repositories.IData;
 import org.springframework.stereotype.Component;
 
 @Component("data")
+
 public class DataImpl implements IData {
     @Override
     public double getData() {
